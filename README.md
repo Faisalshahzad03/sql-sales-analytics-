@@ -81,24 +81,6 @@ The result is exported to Excel for easy business analysis and sharing.
 
 ---
 
-## Repository Structure
-
-sql-sales-analytics/
-│
-├── fiscal-year-sales-report/
-│   ├── sql/
-│   │   ├── get_fiscal_year_function.sql
-│   │   └── product_wise_sales_report.sql
-│   │
-│   ├── output/
-│   │   └── product_wise_sales_report_FY2021.xlsx
-│   │
-│   └── README.md
-│
-└── README.md
-
----
-
 ## Key Takeaways
 
 - Demonstrates real-world SQL reporting skills  
