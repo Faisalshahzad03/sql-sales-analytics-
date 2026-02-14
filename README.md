@@ -12,7 +12,7 @@ LinkedIn: https://www.linkedin.com/in/faisal-analyst/
 This repository contains a collection of SQL-based sales analytics and business reporting projects built using MySQL.
 
 The projects focus on real-world business reporting requirements, including fiscal year handling, product-wise sales analysis, pricing alignment, and revenue calculations.  
-All reports are designed to be analysis-ready and are exported to Excel for further business consumption.
+All reports are designed to be analysis-ready and exported to Excel for business consumption.
 
 ---
 
@@ -22,7 +22,7 @@ All reports are designed to be analysis-ready and are exported to Excel for furt
 - SQL (Joins, Functions, Aggregations)  
 - Fiscal Year & Time-Based Analysis  
 - Sales & Revenue Reporting  
-- Excel (Final Output & Analysis)  
+- Excel (Final Output & Analysis)
 
 ---
 
@@ -39,8 +39,6 @@ To build a product-level sales report for a given fiscal year that accurately al
 
 A key challenge in this task was handling fiscal year logic (Apr–Mar) instead of calendar years.
 
----
-
 ### Key Features
 - Custom fiscal year function for accurate date-to-FY mapping  
 - Product-wise and variant-wise sales analysis  
@@ -49,8 +47,6 @@ A key challenge in this task was handling fiscal year logic (Apr–Mar) instead 
 - Correct pricing alignment using fiscal year logic  
 - Clean, reusable, and scalable SQL design  
 
----
-
 ### SQL Concepts Used
 - User-defined SQL functions  
 - Inner joins across fact and dimension tables  
@@ -58,27 +54,43 @@ A key challenge in this task was handling fiscal year logic (Apr–Mar) instead 
 - Calculated columns for revenue  
 - Sorting and reporting logic  
 
+### Project Files
+- Excel Report  
+  https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/Product_Wise_Sales_Report_FY2021.xlsx
+
+- SQL Case Study PDF  
+  https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/Product_Wise_Sales_Report_FY2021_SQL_Case_Study.pdf
+
 ---
+
+## 2. Gross Monthly Sales Report Using SQL
+
+**Domain:** Revenue & Monthly Sales Analytics  
+
+### Objective
+To calculate total gross sales per date by accurately aligning sales data with fiscal year-based pricing.
+
+This project reuses the custom `get_fiscal_year()` function built in Project 1 to ensure correct pricing alignment.
+
+### Key Features
+- Revenue calculation using quantity × price  
+- Fiscal year-aligned price mapping  
+- Aggregated gross sales at date level  
+- Reusable SQL logic across reports  
+- Excel-ready output for business analysis  
+
+### SQL Concepts Used
+- Aggregation using SUM()  
+- GROUP BY for monthly/date-level reporting  
+- Reuse of user-defined function  
+- Revenue calculation with rounding  
 
 ### Project Files
-- SQL query files (core reporting logic)  
-- Excel file containing final report output
-- https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/Product_Wise_Sales_Report_FY2021.xlsx.csv
-- PDF post explaining the solution step by step  
-https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/Product_Wise_Sales_Report_FY2021_SQL_Case_Study.pdf.pdf
----
+- Excel Report  
+  https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/monthly_gross_sales_report_FY2021.csv
 
-### Output
-The final SQL query generates a product-wise sales report containing:
-- Date / Month  
-- Product Name  
-- Variant  
-- Sold Quantity  
-- Gross Price per Item  
-- Gross Price Total  
-
-The result is exported to Excel for easy business analysis and sharing.
-
+- SQL Case Study PDF  
+https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/monthly_gross_sales_report_SQL_explanation.pdf
 ---
 
 ## Key Takeaways
