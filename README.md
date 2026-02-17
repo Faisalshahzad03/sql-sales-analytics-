@@ -102,7 +102,36 @@ https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/monthly_gross_
 - Built with scalability in mind for future reports  
 
 ---
+## 3. Yearly Sales Report Using SQL
 
+**Domain:** Sales Performance & Yearly Revenue Analysis  
+
+### Objective
+To generate a yearly sales report that summarizes total sales performance over time, supporting high-level business and management analysis.
+
+This report focuses on aggregating sales data at a yearly level to identify overall trends and performance.
+
+### Key Features
+- Yearly sales aggregation  
+- Total revenue calculation  
+- Clean and simple reporting structure  
+- Business-ready output for summary analysis  
+- Exported to CSV for further use  
+
+### SQL Concepts Used
+- Aggregation using SUM()  
+- GROUP BY for yearly reporting  
+- Revenue calculation logic  
+- Ordering and result formatting  
+
+### Project Files
+- CSV Report  
+  https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/monthly_gross_sales_report_SQL_explanation.pdf
+
+- SQL Case Study PDF  
+ https://github.com/Faisalshahzad03/sql-sales-analytics-/blob/main/yearly_sales_SQL_case_study.pdf
+
+---
 ## Future Enhancements
 
 Planned additions to this repository:
